@@ -1,2 +1,3 @@
 # straf_deploy
-Material for the deployment of the STRAF application
+
+Material for the deployment of the STRAF application.
