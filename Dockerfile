@@ -5,7 +5,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     libglpk-dev \
     libmysqlclient-dev
 
-RUN Rscript -e "install.packages(c('remotes', 'markdown')); remotes::install_github('agouy/straf', ref = '2.1.2')"
+RUN Rscript -e "install.packages(c('remotes', 'markdown')); remotes::install_github('agouy/straf', ref = '2.1.3')"
 
 COPY /app.R ./app.R
 
